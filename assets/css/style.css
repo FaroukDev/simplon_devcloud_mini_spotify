@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    font-family:"Circular Spotify Tx T Black";
+    background-color: #333;
+}
+
+header{
+    background-color: black;
+}
+
+.logo img{
+    width: 150px;
+    margin: 15px; 
+    
+}
+
+.container_menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_menu{
+    padding-top: 20px;
+    
+}
+
+.menu{
+    display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul li a{
+   
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.container_main{
+    background-color: #333;
+    display:flex;
+
+}
+.neige img {
+    width:150px;
+    height:150px;
+    margin:20px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.song_title{
+    margin-top: 20px;
+    color: white
+}
+
+.song_title h2{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.song_title h4{
+    font-weight: lighter !important;
+    font-size: 12px;
+}
+
+.song_title h5{
+    font-weight: lighter;
+}
+
+.author {
+    margin-top: 20px;
+    color: lightgray;
+
+}
+
+.my_button button{
+    color: white;
+    background-color: rgb(57, 199, 57);
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    border: none;
+    padding:6px 0 6px 0;
+    border-radius: 19px;
+    margin-left: 17px;
+    font-size: 10px;
+}
+
+.heart img{
+    width:28px;
+    padding-left: 5px;
+    
+}
+
+.circle img{
+    width: 31px;
+    padding-left: 3px;
+    
+    
+}
+
+.container_button{
+    display: flex;
+    justify-content: start;
+    
+}
+
