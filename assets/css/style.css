@@ -115,3 +115,52 @@ ul li a{
     
 }
 
+.container_song{
+    margin: 25px;
+
+}
+
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th,td{
+      border-left: none !important;
+      border-right: none !important;
+  }
+
+  .header_song th{
+      font-weight: lighter;
+      font-size: 11px;
+      color: lightgray;
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+      color: gray !important;
+      font-weight: 800;
+  }
+
+  .song{
+      font-size: 13px;
+      font-weight: 400;
+      color: #ffff
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid rgb(75, 74, 74);
+    padding: 8px;
+  }
+  
+
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+  }
+
