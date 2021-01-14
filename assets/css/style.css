@@ -3,8 +3,9 @@
     padding: 0;
 }
 
+@import url(//db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
 #container {
-    font-family: "Circular Spotify Tx T Black"!important;
+    font-family: "Circular Spotify Tx T Black";
     background-color: #333;
 }
 
