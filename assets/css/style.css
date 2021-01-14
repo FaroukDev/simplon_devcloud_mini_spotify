@@ -16,7 +16,7 @@
 }
 
 #container {
-    font-family: "Circular Spotify Tx T Black";
+    font-family: "Circular Spotify Tx T Black"!important;
     background-color: #333;
 }
 
