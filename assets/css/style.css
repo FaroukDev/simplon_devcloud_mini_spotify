@@ -218,3 +218,8 @@ td {
     display: inline-block;
     line-height: 1em;
 }
+
+.control {
+    width: 200px;
+    height: 34px;
+}
