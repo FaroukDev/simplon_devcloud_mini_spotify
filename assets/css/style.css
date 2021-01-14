@@ -1,202 +1,206 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#container{
-    font-family:"Circular Spotify Tx T Black";
+#container {
+    font-family: "Circular Spotify Tx T Black";
     background-color: #333;
 }
 
-header{
+header {
     background-color: black;
 }
 
-.logo img{
+.logo img {
     width: 150px;
     margin: 15px;
     padding-left: 30px;
-    
 }
 
-.container_menu{
+.container_menu {
     display: flex;
     justify-content: space-between;
-    
 }
 
-.container_menu{
+.container_menu {
     padding-top: 20px;
-    
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.container_menu ul li a{
-   
+.container_menu ul li a {
     color: white;
     padding: 20px;
     text-decoration: none;
 }
-.container_main{
-    background-color: #333;
-    display:flex;
 
+.container_main {
+    background-color: #333;
+    display: flex;
 }
+
 .neige img {
-    width:150px;
-    height:150px;
-    margin:20px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
     box-shadow: 1px 1px 12px #555;
 }
 
-.song_title{
+.song_title {
     margin-top: 20px;
     color: white
 }
 
-.song_title h2{
+.song_title h2 {
     margin-top: 15px;
     font-weight: bold;
     font-size: 28px;
 }
 
-.song_title h4{
+.song_title h4 {
     font-weight: lighter !important;
     font-size: 12px;
+    color: lightgray;
 }
 
-.song_title h5{
+.song_title h5 {
     font-weight: lighter;
 }
 
 .author {
     margin-top: 20px;
     color: lightgray;
-
 }
 
-.my_button button{
+.my_button button {
     color: white;
     background-color: rgb(57, 199, 57);
     text-align: center;
     text-decoration: none;
     width: 100px;
     border: none;
-    padding:6px 0 6px 0;
+    padding: 6px 0 6px 0;
     border-radius: 19px;
     margin-left: 17px;
     font-size: 10px;
 }
 
-.heart img{
-    width:28px;
+.heart img {
+    width: 28px;
     padding-left: 5px;
-    
 }
 
-.circle img{
+.circle img {
     width: 31px;
     padding-left: 3px;
-    
-    
 }
 
-.container_button{
+.container_button {
     display: flex;
     justify-content: start;
-    
 }
 
-.container_song{
+.container_song {
     margin: 25px;
-
 }
-
 
 .customers {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
 
-  th,td{
-      border-left: none !important;
-      border-right: none !important;
-  }
+th,
+td {
+    border-left: none !important;
+    border-right: none !important;
+}
 
-  .header_song th{
-      font-weight: lighter;
-      font-size: 11px;
-      color: lightgray;
-      border-top: none !important;
-      border-left: none !important;
-      border-right: none !important;
-      color: gray !important;
-      font-weight: 800;
-  }
+.header_song th {
+    font-weight: lighter;
+    font-size: 11px;
+    color: lightgray;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    color: gray !important;
+    font-weight: 800;
+}
 
-  .song{
-      font-size: 13px;
-      font-weight: 400;
-      color: #ffff
-  }
-  
-  .customers td, .customers th {
+.song {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffff
+}
+
+.customers td,
+.customers th {
     border: 1px solid rgb(75, 74, 74);
     padding: 8px;
-  }
-  
+}
 
-  
-  .customers th {
+.customers th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #333;
     color: white;
-  }
+}
 
-  .spotify_footer{
-      background-color:black;
-      display: flex;
-      padding: 30px;
-  }
+.spotify_footer {
+    background-color: black;
+    display: flex;
+    padding: 30px;
+}
 
-.society{
+.society {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     margin-left: 60px;
 }
-.society_menu ul li a{
+
+.society_menu ul li a {
     text-decoration: none;
     color: white;
 }
 
-.society_menu ul li{
+.society_menu ul li {
     padding-bottom: 20px;
 }
 
-.title_footer{
+.title_footer {
     color: gray !important;
-
 }
 
-.social_icon{
+.social_icon {
     margin-top: 25px;
-
+    margin-left: 200px;
 }
 
-.social_icon img{
-    width:50px;
+.social_icon img {
+    width: 50px;
+    padding-left: 20px;
+}
+
+.ml2 {
+    font-weight: 600;
+    font-size: 2.5em;
+    color: gray;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
 }
