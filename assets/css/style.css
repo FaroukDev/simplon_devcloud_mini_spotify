@@ -14,13 +14,15 @@ header{
 
 .logo img{
     width: 150px;
-    margin: 15px; 
+    margin: 15px;
+    padding-left: 30px;
     
 }
 
 .container_menu{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .container_menu{
@@ -39,7 +41,7 @@ ul {
   
 }
 
-ul li a{
+.container_menu ul li a{
    
     color: white;
     padding: 20px;
@@ -164,3 +166,37 @@ ul li a{
     color: white;
   }
 
+  .spotify_footer{
+      background-color:black;
+      display: flex;
+      padding: 30px;
+  }
+
+.society{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.society_menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.society_menu ul li{
+    padding-bottom: 20px;
+}
+
+.title_footer{
+    color: gray !important;
+
+}
+
+.social_icon{
+    margin-top: 25px;
+
+}
+
+.social_icon img{
+    width:50px;
+}
