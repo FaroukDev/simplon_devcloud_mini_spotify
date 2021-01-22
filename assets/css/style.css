@@ -1,13 +1,6 @@
 @font-face {
-    font-family: "Circular Spotify Tx T Black";
-    src: url("http://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot");
-    /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.svg#Circular Spotify Tx T Black") format("svg");
-    /* iOS 4.1- */
+    font-family: "Circular Std Bold";
+    src: url("/fonts/circular/CircularStdBold.ttf") format("woff2"), url("/fonts/circular/CircularStdBold.woff") format("woff");
 }
 
 * {
@@ -16,7 +9,7 @@
 }
 
 #container {
-    font-family: "Circular Spotify Tx T Black"!important;
+    font-family: "Circular Spotify Tx T Black" !important;
     background-color: #333;
 }
 
